@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.player {
+  margin: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #00c9a7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00a58c;
+}
